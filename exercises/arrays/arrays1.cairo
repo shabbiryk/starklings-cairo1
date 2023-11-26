@@ -23,4 +23,3 @@ fn test_array_len() {
     assert(a.len() == 3, 'Array length is not 3');
     assert(a.pop_front().unwrap() == 0, 'First element is not 0');
 }
-
