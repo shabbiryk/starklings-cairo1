@@ -31,3 +31,4 @@ fn test_arrays2_empty() {
     remove_element_from_array(ref a);
     assert(a.len() == 0, 'Array length is not 0');
 }
+
